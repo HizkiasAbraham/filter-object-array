@@ -22,5 +22,8 @@
   "bugs": {
     "url": "https://github.com/HizkiasAbraham/filter-object-array/issues"
   },
-  "homepage": "https://github.com/HizkiasAbraham/filter-object-array#readme"
+  "homepage": "https://github.com/HizkiasAbraham/filter-object-array#readme",
+  "dependencies": {
+    "fuzzysearch": "^1.0.3"
+  }
 }
