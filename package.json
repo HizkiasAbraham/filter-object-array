@@ -1,0 +1,26 @@
+{
+  "name": "filter-object-array",
+  "version": "1.0.0",
+  "description": "This light weighted library uses fuzzy search to filter array of objects with configurable fields to be counted for the search",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/HizkiasAbraham/filter-object-array.git"
+  },
+  "keywords": [
+    "search",
+    "array",
+    "filter",
+    "object",
+    "array"
+  ],
+  "author": "Hizkias Abraham",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/HizkiasAbraham/filter-object-array/issues"
+  },
+  "homepage": "https://github.com/HizkiasAbraham/filter-object-array#readme"
+}
