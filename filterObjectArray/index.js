@@ -4,7 +4,7 @@ function compare(word, term) {
   return term && fuzzysearch(word?.toLowerCase(), term.toLowerCase())
 }
 
-function filterObjectArray(list, searchTerm, fieldsToLookup = []) {
+function filterObjectArray(list, searchTerm = "", fieldsToLookup = []) {
   if (!(list && Array.isArray(list)))
     throw new Error("Please provide list of arrays")
 
