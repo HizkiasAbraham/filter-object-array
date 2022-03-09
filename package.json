@@ -3,8 +3,9 @@
   "version": "1.0.0",
   "description": "This light weighted library uses fuzzy search to filter array of objects with configurable fields to be counted for the search",
   "main": "index.js",
+  "type": "commonjs",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "ava"
   },
   "repository": {
     "type": "git",
@@ -25,5 +26,8 @@
   "homepage": "https://github.com/HizkiasAbraham/filter-object-array#readme",
   "dependencies": {
     "fuzzysearch": "^1.0.3"
+  },
+  "devDependencies": {
+    "ava": "^4.1.0"
   }
 }
