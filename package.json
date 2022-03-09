@@ -1,5 +1,5 @@
 {
-  "name": "filter-object-array",
+  "name": "@hizkias/filter-object-array",
   "version": "1.0.0",
   "description": "This light weighted library uses fuzzy search to filter array of objects with configurable fields to be counted for the search",
   "main": "index.js",
@@ -29,5 +29,8 @@
   },
   "devDependencies": {
     "ava": "^4.1.0"
+  },
+  "directories": {
+    "test": "tests"
   }
 }
